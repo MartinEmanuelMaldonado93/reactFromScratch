@@ -1,9 +1,13 @@
 {
   "name": "reactfromscratch",
   "version": "1.0.0",
-  "main": "index.js",
   "license": "MIT",
   "private": true,
+  "source": "./index.html",
+  "scripts": {
+    "dev": "parcel",
+    "build": "parcel build"
+  },
   "devDependencies": {
     "parcel": "^2.7.0",
     "typescript": "^4.8.4"

@@ -97,7 +97,7 @@ const App = () => {
         rem reiciendis ratione?
       </p>
       <footer>
-        <a href="">Take a look at the code</a>
+        <a target="_blank" href="https://github.com/MartinEmanuelMaldonado93/reactFromScratch">Take a look at the code</a>
       </footer>
     </div>
   );
