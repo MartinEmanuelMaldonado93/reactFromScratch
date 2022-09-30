@@ -1,6 +1,5 @@
 let React = {
   createElement: (tag, props, ...children) => {
-    // if is not a react component i.e: 
     if (typeof tag != "function") {
       const element = { tag, props: { ...props, children } };
       return element;
@@ -17,7 +16,7 @@ let React = {
     }
   },
 };
-
+// use like clojure
 const states = [];
 let stateCursor = 0;
 
@@ -97,11 +96,17 @@ const App = () => {
         rem reiciendis ratione?
       </p>
       <footer>
-        <a target="_blank" href="https://github.com/MartinEmanuelMaldonado93/reactFromScratch">Take a look at the code</a>
+        <a
+          target="_blank"
+          href="https://github.com/MartinEmanuelMaldonado93/reactFromScratch"
+        >
+          Take a look at the code
+        </a>
       </footer>
     </div>
   );
 };
+
 const render = (reactElementOrStrOrNum, container) => {
   // if is not a React Element just text ...
   if (["string", "number"].includes(typeof reactElementOrStrOrNum)) {
@@ -109,7 +114,7 @@ const render = (reactElementOrStrOrNum, container) => {
     container.appendChild(strNode);
     return;
   }
-  //create a div,span, wherever..
+  //create a div,span, whatever..
   const currDomElement = document.createElement(reactElementOrStrOrNum.tag);
   // apply the props
   if (reactElementOrStrOrNum.props) {
