@@ -1,4 +1,4 @@
-# Creation of React library ⚛
+# Creation of React library from 0 ⚛
 
 Tiny project to learn how react works, in one file
 are definitions of:
@@ -24,5 +24,5 @@ Clone and run
 ![App](./assets/dogss.png)
 
 # No react installed !!
-![react](./assets/react..png)
+![react](./assets/code-snapshot.png)
 
