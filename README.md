@@ -1,12 +1,12 @@
-# Creation of React library from 0 ⚛
+# Creation of React from 0 ⚛
 
-Tiny project to learn how react works internally(aproximation) using Parcel,
-in one file there are definitions of:
+Little project making homemade React to learn how internally works ,
+in one file I create :
 
-- how to create elements and components inside of Virtual-DOM
+- elements and components inside of Virtual-DOM
 - render function to paint Virtual-DOM
-- useState 
-- Suspense simple recreation 
+- useState system
+- Suspense simple functional recreation 
 
 All this is used in a cute reactive count and input text component  
 
